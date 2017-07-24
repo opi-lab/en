@@ -7,8 +7,6 @@ permalink: /research/
 
 ## Research  ##
 
-Our research interests are in 
-
 The Image Processing and Optics Lab (OPI-Lab) is a research lab at the Universidad Tecnológica de Bolívar. The research in our lab can roughly be divided into optical metrology, computer vision and medical image analysis. Here follows a description of research themes we pursue. We encourage you to also study our publication list. 
 
 <!-- - [Visión artificial](https://opi-lab.github.io/computer-vision/)
