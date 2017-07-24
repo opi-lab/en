@@ -7,7 +7,7 @@ description: >
 # We are an applied optics and image processing lab focused on
 # optical metrology, 3D reconstruction, medical imaging, and digital image processing.
 
-baseurl: /en/ "" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://opi-lab.github.io/en/" # the base hostname & protocol for your site
 
 #source: /
