@@ -20,21 +20,21 @@
             {% if page.permalink == "/team/" %}
             <li class="menu__entry current"><a href="{{ '/en/team' | prepend: site.baseurl }}" style="border-color: green">Team</a></li>
             {% else %}
-            <li class="menu__entry"><a href="{{ '/team' | prepend: site.baseurl }}" style="border-color: green">Team</a></li>
+            <li class="menu__entry"><a href="{{ '/en/team' | prepend: site.baseurl }}" style="border-color: green">Team</a></li>
             {% endif %}
             
-            {% if page.permalink == "/projects/" %}
-            <li class="menu__entry current"><a href="{{ '/en/projects' | prepend: site.baseurl }}" style="border-color: dodgerblue">Projects</a></li>
+            {% if page.permalink == "/research/" %}
+            <li class="menu__entry current"><a href="{{ '/en/research' | prepend: site.baseurl }}" style="border-color: dodgerblue">Projects</a></li>
             {% else %}
-            <li class="menu__entry"><a href="{{ '/en/projects' | prepend:site.baseurl }}" style="border-color: dodgerblue">Projects</a></li>
+            <li class="menu__entry"><a href="{{ '/en/research' | prepend:site.baseurl }}" style="border-color: dodgerblue">Projects</a></li>
             {% endif %}
             
             <li class="menu__entry"><a href="http://isp-utb.github.io/seminario/" target="_blank" style="border-color: red">Seminar</a></li>
             
             {% if page.permalink == "/teaching/" %}
-            <li class="menu__entry current"><a href="{{ '/teaching' | prepend:site.baseurl }}" style="border-color: purple">Teaching</a></li>
+            <li class="menu__entry current"><a href="{{ '/en/teaching' | prepend:site.baseurl }}" style="border-color: purple">Teaching</a></li>
             {% else %}
-            <li class="menu__entry"><a href="{{ '/teaching' | prepend:site.baseurl }}" style="border-color: purple">Teaching</a></li>
+            <li class="menu__entry"><a href="{{ '/en/teaching' | prepend:site.baseurl }}" style="border-color: purple">Teaching</a></li>
             {% endif %}
 
             <!-- <li class="menu__entry"><a href="http://github.com/opi-lab/lab-docs/wiki" target="_blank" style="border-color: gray">Wiki</a></li> -->
