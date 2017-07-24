@@ -26,18 +26,18 @@
             {% if page.permalink == "/projects/" %}
             <li class="menu__entry current"><a href="{{ '/projects' | prepend: site.baseurl }}" style="border-color: dodgerblue">Projects</a></li>
             {% else %}
-            <li class="menu__entry"><a href="{{ '/projects' | prepend: site.baseurl }}" style="border-color: dodgerblue">Projects</a></li>
+            <li class="menu__entry"><a href="{{ '/projects' | prepend:site.baseurl }}" style="border-color: dodgerblue">Projects</a></li>
             {% endif %}
             
             <li class="menu__entry"><a href="http://isp-utb.github.io/seminario/" target="_blank" style="border-color: red">Seminar</a></li>
             
             {% if page.permalink == "/teaching/" %}
-            <li class="menu__entry current"><a href="{{ '/teaching' | prepend: site.baseurl }}" style="border-color: purple">Teaching</a></li>
+            <li class="menu__entry current"><a href="{{ '/teaching' | prepend:site.baseurl }}" style="border-color: purple">Teaching</a></li>
             {% else %}
-            <li class="menu__entry"><a href="{{ '/teaching' | prepend: site.baseurl }}" style="border-color: purple">Teaching</a></li>
+            <li class="menu__entry"><a href="{{ '/teaching' | prepend:site.baseurl }}" style="border-color: purple">Teaching</a></li>
             {% endif %}
             <li class="menu__entry"><a href="http://github.com/opi-lab/lab-docs/wiki" target="_blank" style="border-color: gray">Wiki</a></li>
-			            <li class="menu__entry"><a href="{site.baseurl}" target="_blank" style="border-color: gray">Español</a></li>
+			            <li class="menu__entry"><a href="{{site.baseurl}}" target="_blank" style="border-color: gray">Español</a></li>
 			
         </ul>
     </div>
