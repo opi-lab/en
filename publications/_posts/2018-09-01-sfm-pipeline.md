@@ -1,8 +1,7 @@
 ---
 layout: publication
 title: A Structure-from-Motion Pipeline for Topographic Reconstructions using Unmanned Aerial Vehicles and Open Source Software
-authors: Jhacson Meza, Andrés G. Marrugo, Enrique Sierra, Milton Guerrero, Jaime Meneses, and Lenny A.
-Romero
+authors: Jhacson Meza, Andrés G. Marrugo, Enrique Sierra, Milton Guerrero, Jaime Meneses, and Lenny A. Romero
 date: 2018-09-01 10:05
 main_url: /pdfs/sfm-pipeline-2018.pdf
 venue: 13th Colombian Conference on Computing (13CCC)
